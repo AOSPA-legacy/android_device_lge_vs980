@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2011 The Android Open-Source Project
+# Copyright (C) 2013 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,9 +26,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.home.operator.numeric=311480 \
 	ro.cdma.home.operator.alpha=Verizon \
 	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
-
-PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml
 
 # NFC packages
 PRODUCT_PACKAGES += \
