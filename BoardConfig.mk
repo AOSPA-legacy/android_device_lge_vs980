@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := vs980_defconfig
+TARGET_KERNEL_CONFIG := vs980a_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := g2,vs980,galbi
 
